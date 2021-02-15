@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  /* By: Julian laverde gomez */
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registrate con nosotros</title>
+
+    <div class="banner">
+        <img src="img/banner.png">
+        </div>
+        
+    <style>
+      .banner img {
+        width:100%;
+        max-width:auto;
+
+        background-color:#D7D0C8;
+        }
+
+        body{
+            background-color:#D7D0C8;
+
+        }
+        
+        input,
+        textarea {
+
+          font: 1em sans-serif;
+
+          width: 300px;
+          box-sizing: border-box;
+
+          border: 1px solid #999;
+        }
+
+
+        form {
+
+  
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  
+  
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+
+.genero {
+  font: 1em sans-serif;
+  width: auto;
+  box-sizing:border-box;
+  
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: .5em;
+}
+
+.checkbox {
+    position:center;
+    padding-left: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+    </style>
+</head>
+
+<body>
+    
+
+        <div class="present"> 
+            <Legend align="center"> <h1> <b> Unete a nosotros y sé lo que te propongas  </b> </h1></Legend>
+
+        </div>
+
+        <form action="/my-handling-form-page" method="post">
+
+            <ul>
+                <li>
+                  <label for="name">Nombre:</label>
+
+                  <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="surname">Apellidos:</label>
+  
+                    <input type="text" id="surname" name="user_surname">
+                  </li>
+                  <li>
+                    <label for="direction">Dirección:</label>
+  
+                    <input type="text" id="direction" name="user_direction">
+                  </li>
+                  <li>
+                    <label for="phone">Teléfono:</label>
+  
+                    <input type="tel" id="tel" name="tel">
+                  </li>
+
+                <li>
+                  <label for="mail">Correo electrónico:</label>
+
+                  <input type="email" id="mail" name="user_mail" required placeholder= "micorreo@gmail.com"  >
+                </li>
+
+                <li>
+                    <label for="password">Contraseña:</label>
+  
+                    <input type="password" id="pwd" required name="pwd">
+                  </li>
+                  <li> </li>
+                  <li> </li>
+                  <legend align="center">Mantenga la siguiente casilla marcada solo en caso de ser becado</legend>
+                  <ul align="center">
+                    <li>
+                        
+                       <label class="checkbox" > 
+                           
+                            <input type="checkbox" checked="checked" >
+                            
+                        </label>
+                    </li>
+                    <li> </li>
+                    <li> </li>
+
+                  </ul>
+                </fieldset>
+
+                <li>
+                   <ul aling="center">Escriba su fecha de nacimiento:</ul>
+                    <label for="bday"></label>
+                    <input type="date" id="bday" name="bday">
+                </li>
+                <li>
+                    <ul aling="center">Elija su color distintivo:</ul>
+                    <label for="color"></label>
+                    <input type="color">
+                </li>
+                
+
+                <li class="acerca">
+                  <label for="acerca">Acerca de ti:</label>
+
+                  <textarea id="acerca" name="user_about" size="15" maxlength="300"  > Escriba aqui acerca de usted </textarea>
+                </li>
+
+                <li class="genero">
+                        Género:<br>
+                        <input type="radio" name="genero" value="Masculino"> Masculino<br>
+                        <input type="radio" name="genero" value="Femenino"> Femenino<br>
+                            
+                </li>
+
+                <li>
+                    <ul>Área a la que desesa registrarse:</ul>
+                    <select name="Area"> 
+                        
+                        <option value="value1" selected>Derecho</option>
+                        <option value="value2" >Ingenieria</option>
+                        <option value="value3">Medicina</option>
+                        <option value="value4">Trabajo social</option>
+                      </select>
+                </li>
+                
+
+                <li class="button">
+                    <button type="submit" >Registrese</button>
+                  </li>
+
+                  <li class= "button">
+                    <button type="reset" >Reset</button>
+
+                  </li>
+
+               </ul>
+
+                <li> </li>
+
+        </form>
+ 
+</body>
+
+</html>
