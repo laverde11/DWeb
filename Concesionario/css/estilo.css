@@ -1,0 +1,40 @@
+@font-face{
+    font-family: "FIFA Welcome";
+    src: url("img/fonts/fifawelcome.ttf");
+}
+body{
+    background: radial-gradient(at top, rgb(241, 197, 0),#520004);
+}
+.bugatti{
+    background: radial-gradient(at top, #777777,black);
+}
+.peg{
+    background: radial-gradient(at top, #9b3e26,black);
+}
+.citroen{
+    background: radial-gradient(at top, #f7542b,black);
+}
+.renault{
+    background: radial-gradient(at top, #3d1b12,black);
+}
+
+.logo{ z-index: 0;}
+.navbar{ z-index: 1;    position: static; font-family: "FIFA Welcome"; font-size: 18px}
+.bg-light{
+    background: linear-gradient( #E02F39,#520004);
+    border-radius: 25px;
+}
+.nav-item{    padding: 0px 20px;}
+.nav-item:first-child{
+    border-right:#520004 solid 1px;    
+}
+.autom{
+    animation: autom_animacion ease-in-out infinite 4s;
+}
+@keyframes autom_animacion{
+    0%{ transform: translateY(-10%)}
+    50%{ transform: translateY(0%)}
+    100%{ transform: translateY(-10%)}
+}
+
+
