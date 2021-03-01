@@ -1,0 +1,44 @@
+ 
+    body{
+        background-color: #3C474B;
+    }
+    div{
+        background-color:rgb(255, 255, 255);
+        border: 2px solid=black;
+        padding: 12px;
+        width: 50% ;
+        margin: auto;
+    }
+
+    .maer{ 
+        margin-bottom: 1%;
+        width: 90%;
+    }
+    
+    legend{
+        font-weight: lighter;
+        background-color: #C0E0DE;
+        padding: 4px;
+        border-radius:30px;
+    
+    }
+
+    img{
+        display:block;
+        margin:auto;
+        }
+
+    h1, h2, h2, h3, h4 , h5{
+        text-align: center;
+        color: #fff;
+        background-color: blue;
+    }
+    .titu{
+            text-align: center;
+            color: #fff;
+            background-color: blue
+            
+    }
+    table{
+        margin: 0 auto;
+    }

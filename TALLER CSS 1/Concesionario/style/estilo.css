@@ -1,0 +1,104 @@
+@font-face{
+    font-family: "FIFA Welcome";
+    src: url("img/fonts/fifawelcome.ttf");
+}
+body{
+    background: radial-gradient(at top, rgb(241, 197, 0),#520004);
+}
+.bugatti{
+    background: radial-gradient(at top, #777777,black);
+}
+.peg{
+    background: radial-gradient(at top, #9b3e26,black);
+}
+.citroen{
+    background: radial-gradient(at top, #f7542b,black);
+}
+.renault{
+    background: radial-gradient(at top, #3d1b12,black);
+}
+
+
+.navbar{height: 3%; width: 100%;  z-index: 1;    position:static; font-family: "FIFA Welcome"; font-size: 18px}
+.bg-light{
+    background: linear-gradient( #E02F39,#520004);
+    border-radius: 50px;
+}
+.nav-item{    padding: 0px 20px;}
+.nav-item:first-child{
+    border-right:#520004 solid 1px;    
+}
+.autom{
+    animation: autom_animacion ease-in-out infinite 4s;
+}
+@keyframes autom_animacion{
+    0%{ transform: translateY(-10%)}
+    50%{ transform: translateY(0%)}
+    100%{ transform: translateY(-10%)}
+}
+
+  
+.logo{
+
+    display:block;
+    margin:0px;
+}
+
+img{
+    margin-left: 10%;
+ 
+}
+
+ul{
+    padding: 15%;
+
+}
+#izquierda{
+    height: auto;
+    width: 15%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+
+}
+#centro{
+    height: auto;
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+
+}
+
+#derecha{
+    height: auto;
+    width: 13%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+a{
+color: white;
+}
+#superior{
+    height: 200px;
+    width: max-content;
+    margin: 0px;
+    padding: 0px;
+    display:block;
+        margin:auto;
+        clear: both;
+}
+
+#inferior{
+    color: white;
+    height: 200px;
+    width: max-content;
+    margin: 0px;
+    padding: 0px;
+    display:block;
+    margin:auto;
+    clear: both;
+}
+
