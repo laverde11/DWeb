@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+   <!-- Desarrolado por - Julián Laverde Gómez (Constantine66)   -->>
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Calculadora</title>
+    
+    <LINK REL=StyleSheet HREF="styles/style.css" MEDIA=screen>
+
+</head>
+
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+    <fieldset id="fil">
+        <legend>Calculadora</legend>
+    <form id="Formulario" >
+        <label for="num1">Número 1  </label>
+        <input type="number" id="num1" autofocus placeholder="Escribe aqui el número 1" >
+       
+    
+        <p></p>
+        <p></p>
+        <label for="num2">Número 2 </label>
+        <input type="number" id="num2" placeholder="Escribe aqui el número 2 " >
+
+        <p></p>
+        <p></p>
+
+        <button type="button" onclick="Sumar();">Sumar</button>
+        <button type="button" onclick="Restar();">Restar</button>
+        <button type="button" onclick="Multiplicar();">Multiplicar</button>
+        <button type="button" onclick="Dividir();">Dividir</button>
+        <button type="button" onclick="Potenciar();">Potenciar</button>
+
+
+        <p>Resultado: <span id="resultado"> </span>  </p>
+
+        <button onclick="Limpiar();">Limpiar</button>
+    </form>
+</fieldset>
+
+<script type="text/javascript" src="scripts/funciones.js"></script>
+</body>
+</html>

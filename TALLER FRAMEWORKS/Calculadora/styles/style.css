@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(252, 239, 224); 
+}
+#Formulario{
+   
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 239, 224);
+    margin: 0 auto;
+}
+#fil{
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(250, 230, 208);
+}

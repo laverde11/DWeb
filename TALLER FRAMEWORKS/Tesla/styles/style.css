@@ -1,0 +1,93 @@
+@font-face{
+    font-family: "Impact", sans-serif;
+    src: url("fonts/impact.ttf");
+}
+
+body{
+    background: radial-gradient(at top, #000000,black);
+}
+.models{
+    background: radial-gradient(at top, #777777,black);
+}
+.model3{
+    background: radial-gradient(at top, #ddcda2,black);
+}
+.modelx{
+    background: radial-gradient(at top, #4ccfb9,black);
+}
+.modely{
+    background: radial-gradient(at top, #1a81d4,black);
+}
+.roadster{
+    background: radial-gradient(at top, #b63f3f,black);
+}
+.cybertruck{
+    background: radial-gradient(at top, #727272,black);
+}
+
+
+
+
+h1,h2{ font-family: "Impact", sans-serif; }
+.navbar{  font-family: "Impact", sans-serif; font-size: 20px; padding: 0 }
+.nav-item{ padding: 0px 20px; line-height: 2.5;}
+.nav-item:hover{ background:#FEC32B }
+.bg-dark{ background: black !important}
+.bg-gray{ background: rgb(42, 42, 42) !important}
+.bg-acceso{ background: #FEC32B !important;}
+.bg-acceso a{  color:black !important}
+.carousel{ border-bottom: 50px black solid}
+.carousel-item > img{animation: zoom 1s}
+.carousel-caption {    bottom: 40%;}
+@keyframes zoom{
+    from{ transform: scale(1.3,1.3)}   
+    to{ transform: scale(1,1)}
+}
+.text6{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.text5{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    font-size:3em;
+}
+
+
+.tite{
+    text-decoration: underline;
+    font-style:italic;
+    font-weight:bold;
+    font-size:3em;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+.tite2{
+    text-decoration: underline;
+    font-style:italic;
+    font-weight:bold;
+    font-size:2em;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+text-decoration  : underline;
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* scroll  */
+body::-webkit-scrollbar{
+    width: 7px;
+ 
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: chocolate;
+}
